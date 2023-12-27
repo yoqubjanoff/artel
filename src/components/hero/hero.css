@@ -1,0 +1,6 @@
+.Hero {
+  background-image: url("../../assets/images/home-hero-one.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
