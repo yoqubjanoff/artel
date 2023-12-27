@@ -3,8 +3,7 @@ header {
   padding-top: 21px;
   padding-bottom: 21px;
 }
-.container{
- 
+.container {
 }
 
 .header-wrapper {
@@ -39,7 +38,7 @@ header {
   outline: none;
   font-size: 18px;
   font-weight: 700;
-  line-height: 29.225px; /* 162.36% */
+  line-height: 29.225px;
   letter-spacing: -0.405px;
 }
 
@@ -47,7 +46,7 @@ header {
   background-color: rgb(77, 75, 75);
   font-size: 18px;
   font-weight: 700;
-  line-height: 29.225px; /* 162.36% */
+  line-height: 29.225px;
   letter-spacing: -0.405px;
 }
 
@@ -123,24 +122,72 @@ header {
 .menu {
   margin-left: 40px;
 }
-.closeBtn{
+
+.modalBtn {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  border-radius: 28px;
+  border: 2px solid #fff;
+  padding: 7px 16px;
+}
+.closeBtn {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-left: 36px;
-color:  #FFF;
-text-align: center;
-font-feature-settings: 'clig' off, 'liga' off;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 26px; 
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
 }
 
-.closeIcon{
+.closeIcon {
   width: 24px;
   height: 24px;
 }
-.custom-drawer .ant-drawer-header{
+.custom-drawer .ant-drawer-header {
   margin: 0 auto;
+}
+.header-modal{ width: 786px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+
+.header-call-modal {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-family: Styrene A LC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29.216px;
+  margin-right: 25px;
+}
+
+.header-call-modal::before {
+  content: "";
+  background-image: url("../../assets/icons/Phone.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 2px;
+  right: 158px;
+  width: 26px;
+  height: 26px;
+}
+.lang-icon-modal{
+  background-image: url("../../assets/icons/Globe.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 32px;
 }

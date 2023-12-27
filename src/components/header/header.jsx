@@ -99,8 +99,8 @@ const Header = () => {
                           </option>
                         </select>
                       </div>
-                      <div className="header-end">
-                        <label className="lang-icon">
+                      <div className="header-modal">
+                        <label className="lang-icon-modal">
                           <select className="lang-select" name="lang">
                             <option value="UZ">UZ</option>
                             <option value="RU" selected>
@@ -110,12 +110,12 @@ const Header = () => {
                           </select>
                         </label>
                         <a
-                          className="header-call"
+                          className="header-call-modal"
                           href="tel: +998 78 148-88-88"
                         >
-                          +998 78 148-88-88
+                          0800-120-55 55
                         </a>
-                        <button className="header-nav-btn">Бизнес</button>
+                        <button className="modalBtn">Бизнес</button>
                         <button className="closeBtn" onClick={onClose}>Закрыть
                         <img src={closeIcon} alt="" className="closeIcon" />
                         </button>
