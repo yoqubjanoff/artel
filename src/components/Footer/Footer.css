@@ -1,0 +1,104 @@
+.site-footer {
+  padding-top: 52px;
+  padding-bottom: 57px;
+  background-color: #262d33;
+}
+
+.footer-wrapper {
+  position: relative;
+  display: flex;
+}
+.up {
+  position: absolute;
+  top: -85px;
+  right: 0px;
+}
+
+.footer-logo {
+  margin-bottom: 40px;
+}
+
+.footer-social-list {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 138px;
+}
+
+.footer-start {
+  margin-right: 228px;
+}
+
+.footer-start-title {
+  color: #fff;
+  font-family: Styrene A LC;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.667px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-double {
+  display: flex;
+}
+
+.footer-middle {
+  display: flex;
+  width: 100%;
+  gap: 45px;
+}
+.footer-list-one {
+  width: 240px;
+}
+.footer-middle__list {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  /* width: 240px; */
+}
+.footer-list-two {
+  width: 279px;
+}
+
+.footer-middle__item-title {
+  color: #fff;
+  font-family: Styrene A LC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.667px;
+}
+
+.footer-end {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 186px;
+}
+
+.footer-end__title {
+  color: #fff;
+  font-family: Styrene A LC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34.667px;
+  letter-spacing: -0.48px;
+}
+
+.footer-tel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Styrene A LC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.073px;
+}

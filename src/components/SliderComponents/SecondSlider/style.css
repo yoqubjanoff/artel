@@ -3,7 +3,7 @@
   height: 100vh;
   background-image: url("../../../assets/images/SlideBG1.jpg");
   background-repeat: no-repeat;
-
+  background-size: cover;
 }
 .wrapper {
   display: flex;
@@ -32,7 +32,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 130%;
-  text-transform: uppercase;
 }
 
 .toptex {
@@ -52,7 +51,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 105%;
-  margin-bottom: 74px;
+  margin-bottom: 57px;
 }
 
 .text-image-box {
@@ -61,7 +60,7 @@
 }
 
 .desc {
-  width: 250px;
+  width: 222px;
   color: #59e9ff;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 29px;

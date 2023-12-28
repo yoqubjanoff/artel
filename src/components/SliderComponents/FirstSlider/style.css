@@ -3,6 +3,7 @@
   height: 100vh;
   background-image: url("../../../assets/images/mainBg.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .wrapper {
   display: flex;
@@ -49,6 +50,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: 130%;
+margin-bottom: 42px;
 }
 
 .second-desc span{
@@ -59,11 +61,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 130%; 
 }
-.shortimg {
-  width: 89px;
-  height: 82px;
-  margin-bottom: 55px;
-}
+
 
 .btn-box {
   display: flex;
@@ -97,18 +95,4 @@ line-height: 130%;
   line-height: 26px;
 }
 
-/* <div className="firstslider">
-      <div className="container">
-        <div className="textBox">
-          <p className="newstext">
-            YANGI <span>2023</span> GRAND INVERTER
-          </p>
-          <p className="toptex">KIYIMLARINGIZ KIR</p>
-          <h2 className="maintex">BO‘LISHIDAN</h2>
-          <div className="text-image-box">
-            <img src={tshort} alt="wear img" />
-            <p className="desc">Gipoallergen <span>kir yuvish</span></p>
-            <div className="brn-box">
-                <button className="btn-one">Узнать больше</button>
-                <button className="btn-two">Узнать больше</button>
-            </div> */
+

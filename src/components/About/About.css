@@ -1,0 +1,145 @@
+.about {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.about-title {
+  max-width: 1172px;
+  width: 100%;
+  color: #0f1722;
+  font-family: Styrene A LC;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin-bottom: 40px;
+}
+
+.about-desc {
+  max-width: 902px;
+  width: 100%;
+  color: #4f5359;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Styrene A LC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 80px;
+}
+
+.about-data-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.data-list__item {
+  position: relative;
+}
+
+.data-list__title {
+  color: #0f1722;
+  font-family: Styrene A LC;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115.355px;
+}
+
+.data-list__desc {
+  /* width: 173px; */
+  color: #4f5359;
+  font-family: Styrene A LC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.one::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -63px;
+  border: 1px solid #878787;
+  width: 0;
+  height: 190px;
+}
+.two::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -91px;
+  border: 1px solid #878787;
+  width: 0;
+  height: 190px;
+}
+.three::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -73px;
+  border: 1px solid #878787;
+  width: 0;
+  height: 190px;
+}
+.four::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -124px;
+  border: 1px solid #878787;
+  width: 0;
+  height: 190px;
+}
+
+.one-desc {
+  width: 173px;
+}
+.two-desc {
+  width: 90px;
+}
+.three-desc {
+  width: 259px;
+}
+.four-desc {
+  width: 67px;
+}
+.five-desc {
+  width: 236px;
+}
+
+.more {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-btn {
+  z-index: 1;
+  padding: 16px 29.333px;
+  border-radius: 37.333px;
+  border: 2.667px solid #e7e5ea;
+  background-color: #fff;
+  color: #0f1722;
+  text-align: center;
+  font-family: Styrene A LC;
+  font-size: 18.667px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 171.429% */
+}
+
+.more-btn:hover {
+  background-color: #057d45;
+  color: #fff;
+}
+
+.more-line {
+  position: absolute;
+  border: 1px solid #e7e5ea;
+  width: 100%;
+}

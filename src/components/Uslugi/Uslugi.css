@@ -1,0 +1,144 @@
+.uslugi-section {
+  padding-top: 90px;
+  padding-bottom: 221px;
+  background-color: #f5f5f5;
+}
+.uslugi-title {
+  color: #0f1722;
+  font-family: Styrene A LC;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.uslugi-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uslugi-list__item {
+  position: relative;
+  max-width: 540px;
+  width: 100%;
+  height: 398px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-image: url("../../assets/images/uslugi-bg.png");
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-size: contain;
+  padding: 30px;
+}
+
+.garanti::after {
+  position: absolute;
+  top: -90px;
+  right: 15px;
+  content: "";
+  max-width: 181px;
+  width: 100%;
+  height: 232px;
+  background-image: url("../../assets/icons/uslugi-one.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.garanti-title {
+  max-width: 163px;
+  width: 100%;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Styrene A LC;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 112.5% */
+}
+
+.garanti-desc {
+  width: 270px;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Styrene A LC;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.info::after {
+  position: absolute;
+  top: -90px;
+  right: 15px;
+  content: "";
+  max-width: 197px;
+  width: 100%;
+  height: 198px;
+  background-image: url("../../assets/icons/uslugi-two.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.info-title {
+  max-width: 238px;
+  width: 100%;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Styrene A LC;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 112.5% */
+}
+
+.info-desc {
+  width: 270px;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Styrene A LC;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.servis::after {
+  position: absolute;
+  top: -90px;
+  right: 15px;
+  content: "";
+  max-width: 197px;
+  width: 100%;
+  height: 198px;
+  background-image: url("../../assets/icons/uslugi-three.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.servis-title {
+  max-width: 238px;
+  width: 100%;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Styrene A LC;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 112.5% */
+}
+
+.servis-desc {
+  width: 270px;
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Styrene A LC;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

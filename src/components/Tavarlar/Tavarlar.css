@@ -1,0 +1,89 @@
+.tavarlar {
+  background-color: rgb(188, 188, 188);
+  padding-top: 160px;
+  padding-bottom: 160px;
+  position: relative;
+  z-index: 1;
+}
+.tavarlar-start {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.swip-btn {
+  display: flex;
+}
+
+.tavarlar-top {
+  display: flex;
+  align-items: flex-end;
+  max-width: 540px;
+  width: 100%;
+  height: 188px;
+  border-radius: 0px 0px 20px 20px;
+  background: linear-gradient(180deg, rgba(11, 11, 11, 0) 0%, #0b0b0b 105.67%);
+  padding-left: 30px;
+  padding-bottom: 31px;
+}
+
+.tavarlar-title {
+  max-width: 454px;
+  width: 100%;
+  color: #0f1722;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Styrene A LC;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47px; /* 117.5% */
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.tavarlar-card {
+  display: flex;
+  align-items: flex-end;
+  max-width: 540px;
+  width: 100%;
+  height: 491px;
+  border-radius: 20px;
+}
+.card-one {
+  background-image: url("../../assets/images/tavar-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.card-two {
+  background-image: url("../../assets/images/tavar-2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.card-three {
+  background-image: url("../../assets/images/tavar-3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tavarlar-desc {
+  max-width: 397px;
+  width: 100%;
+  color: #fff;
+  font-family: Styrene A LC;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+.btn-boxe{
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+.my-swiper .swiper-button-prev{
+  display: none;
+}
+.my-swiper .swiper-button-next{
+  display: none;
+}

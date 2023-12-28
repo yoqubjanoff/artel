@@ -11,10 +11,10 @@ import Layout from "./Layout";
 function App() {
   const routes = createBrowserRouter(
     createRoutesFromElements(
-    <Route path="/" element={<Layout/>}>
-      <Route index element={<Home/>} />
-
-    </Route>)
+      <Route path='/' element={<Layout />}>
+        <Route index element={<Home />} />
+      </Route>
+    )
   );
   return (
     <>
