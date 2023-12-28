@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Styrene A LC";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./assets/fonts/StyreneA-Regular-Trial-BF63f6cbd970ee9.otf)
+    format("truetype");
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Styrene A LC";
+  font-style: normal;
+  font-weight: 500;
+  src: url(./assets/fonts/StyreneA-Medium-Trial-BF63f6cbdb24b6d.otf)
+    format("truetype");
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Styrene A LC";
+  font-style: normal;
+  font-weight: 600;
+  src: url(./assets/fonts/StyreneA-Bold-Trial-BF63f6cbda1877f.otf)
+    format("truetype");
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "TT Firs Neue";
+  font-style: normal;
+  font-weight: 600;
+  src: url(./assets/fonts/TT\ Firs\ Neue\ Trial\ Bold.ttf) format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Styrene A LC", 'Helvetica Neue',;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1710px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}

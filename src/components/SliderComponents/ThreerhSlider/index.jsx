@@ -4,7 +4,7 @@ import tshort from "../../../assets/icons/tshort.png";
 
 const ThreerhSlider = () => {
   return (
-    <div className="firstslider">
+    <div className="three-slider">
       <div className="container">
         <div className="wrapper">
           <div className="textBox">
